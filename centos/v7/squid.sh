@@ -14,7 +14,7 @@ MYIP2="s/xxxxxxxxx/$MYIP/g";
 
 # install squid
 yum -y install squid
-wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/0DinZ/CentOS-7-AutoScript/master/conf/squid-centos.conf"
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/jeevagit/myScripts/main/centos/v7/squid-centos.conf"
 sed -i $MYIP2 /etc/squid/squid.conf;
 systemctl restart squid
 systemctl enable squid
