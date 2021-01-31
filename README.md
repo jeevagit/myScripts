@@ -3,7 +3,7 @@ just collection of my fav scripts
 
 Automatic Script Installer by Sivaram-Durga
 
-==========
+
 Usage
 CentOS 7 64 bit
 
