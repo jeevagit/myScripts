@@ -10,4 +10,5 @@ CentOS 7 64 bit
 Squid Setup
 
 wget https://raw.githubusercontent.com/jeevagit/myScripts/main/centos/v7/squid.sh
+
 bash squid.sh
